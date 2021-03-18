@@ -1,0 +1,39 @@
+//font-families
+$sans: 'Source Sans Pro', sans-serif;
+$hand: 'Nothing You Could Do', sans-serif;
+
+//font-weights
+$normal: 400;
+$bold: 700;
+$black: 900;
+
+//letter-spacing
+$wide: .2em;
+$close: -.1em;
+
+//colors
+$ultralight: #ffffff;
+$background: #FFFFF9;
+$textPrimary: #241209;
+$textTint25: #C8C3BC;
+$accentPrimary: #1C9A7A;
+$accentShade50: #126F44;
+$accentTint20: #49AE95;
+$winner: #EC8B2C;
+$runnerUp: #5D92A2;
+
+//buttons
+$buttonBg: $accentPrimary;
+$buttonBorderRadius: .25em;
+$buttonPadding: .75em;
+$buttonBgHover: $accentShade50;
+$buttonText: $ultralight;
+
+//shadows
+$largeShadow: 0px 5px 10px $textPrimary;
+$medShadow: 0px 2px 5px $textPrimary;
+$smallShadow: 0px 1px 2px $textPrimary;
+
+
+
+

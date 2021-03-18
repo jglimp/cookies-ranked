@@ -1,11 +1,15 @@
 <template>
-  <img src="/cookies-cover.png" alt="cookies" title="Logo" />
+  <img
+    src="/cookies-cover.png"
+    class="responsive-image cover-image"
+    alt="cookies"
+    title="Logo"
+  />
 </template>
 
 <style>
-.NuxtLogo {
-  animation: 1s appear;
-  margin: auto;
+.responsive-image.cover-image {
+  max-width: 75%;
 }
 
 @keyframes appear {

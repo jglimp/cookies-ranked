@@ -1,0 +1,30 @@
+@import 'global_variables';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $sans;
+    font-weight: $normal;
+    color: $textPrimary;
+    font-size: 16px;
+    min-width: 100%;
+    background-color: $background;
+    line-height: 1.5;
+    margin: 0;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.responsive-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
